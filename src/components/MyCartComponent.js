@@ -14,6 +14,7 @@ class MyProductComponent extends React.Component {
 
   componentDidMount() {
     const apiUrl = 'http://localhost:9694/cart/getCart';
+    //const apiUrl = 'http://localhost:9694/cart/getCart';//Updated
            
     fetch(apiUrl)
      .then((response) => response.json())
